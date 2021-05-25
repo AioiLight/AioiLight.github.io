@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+:root {
+    --background: #fafafa;
+    --main-text: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000000;
+        --main-text: #ffffff;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--main-text);
+}
